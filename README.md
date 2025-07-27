@@ -1,72 +1,58 @@
-# Python Starter Project
+# Python Project Template
 
-Un projet Python de base pour démarrer rapidement vos développements.
+Ce template fournit une structure de base pour démarrer rapidement vos projets Python.
 
 ## 🚀 Démarrage rapide
 
-1. Clonez le repository :
+1. Clonez le template :
 ```bash
-git clone [URL_DU_REPO]
-cd python-starter
+git clone https://github.com/xoudev/python-starter.git
 ```
 
-2. Créez et activez un environnement virtuel :
+2. Renommez le repository :
+```bash
+git remote set-url origin clone https://github.com/xoudev/python-starter.git
+```
+
+3. Configurez votre projet :
+```bash
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+```
+
+## 📋 Configuration initiale
+
+1. Créez et activez un environnement virtuel :
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # Sur Windows : .venv\Scripts\activate
 ```
 
-3. Installez les dépendances :
+2. Installez les dépendances :
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Exécutez le projet :
-```bash
-python main.py
-```
-
-## 📋 Prérequis
-
-- Python 3.8+ (version recommandée)
-- pip (gestionnaire de paquets Python)
-
-## 📁 Structure du projet
+## 📁 Structure du template
 
 ```
 python-starter/
 ├── .gitignore         # Fichiers à ignorer par Git
-├── .python-version    # Version de Python utilisée
-├── main.py            # Point d'entrée de l'application
-├── requirements.txt   # Dépendances du projet
+├── .python-version    # Version de Python recommandée
+├── main.py            # Point d'entrée de l'application (à modifier)
+├── requirements.txt   # Liste des dépendances (à modifier)
 └── README.md          # Documentation du projet
 ```
 
-## 🛠️ Développement
+## 🛠️ Utilisation du template
 
-Ce projet est configuré avec une structure de base pour faciliter le développement Python. Il inclut :
-- Un environnement virtuel Python
-- Un fichier de configuration des dépendances
-- Une structure de base pour les fichiers Python
+1. Copiez ce template pour votre nouveau projet
+2. Modifiez le README.md selon votre projet
+3. Ajoutez vos dépendances dans requirements.txt
+4. Développez votre code dans main.py ou créez de nouveaux fichiers
 
-## 📝 Licence
+## 👨‍💻 Auteur du template
 
-Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus de détails.
+- **Jordan** - [xoudev](https://github.com/xoudev)
 
-## 👥 Contribuer
-
-Les contributions sont les bienvenues ! Pour contribuer à ce projet :
-1. Fork le repository
-2. Créez votre branche de fonctionnalité (`git checkout -b feature/AmazingFeature`)
-3. Commit vos changements (`git commit -m 'Add some AmazingFeature'`)
-4. Push vers la branche (`git push origin feature/AmazingFeature`)
-5. Ouvrez une Pull Request
-
-## 👨‍💻 Auteur
-
-- **Votre Nom** - [Votre GitHub](https://github.com/votre-nom)
-
-## 🎁 Remerciements
-
-- Merci à tous les contributeurs
-- Merci à la communauté Python pour ses outils et bibliothèques
